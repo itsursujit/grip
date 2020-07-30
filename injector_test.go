@@ -3,7 +3,7 @@ package grip
 import (
 	"os"
 
-	"github.com/mongodb/grip/send"
+	"github.com/itsursujit/grip/send"
 )
 
 func (s *GripSuite) TestSenderGetterReturnsExpectedJournaler() {

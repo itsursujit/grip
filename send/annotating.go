@@ -4,7 +4,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/mongodb/grip/message"
+	"github.com/itsursujit/grip/message"
 )
 
 type annotatingSender struct {

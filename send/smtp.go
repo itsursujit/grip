@@ -15,7 +15,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/mongodb/grip/message"
+	"github.com/itsursujit/grip/message"
 )
 
 type smtpLogger struct {

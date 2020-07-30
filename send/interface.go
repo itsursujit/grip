@@ -9,8 +9,8 @@ import (
 	"context"
 	"log"
 
-	"github.com/mongodb/grip/level"
-	"github.com/mongodb/grip/message"
+	"github.com/itsursujit/grip/level"
+	"github.com/itsursujit/grip/message"
 )
 
 // The Sender interface describes how the Journaler type's method in primary

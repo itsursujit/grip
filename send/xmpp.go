@@ -7,8 +7,8 @@ import (
 	"os"
 	"strings"
 
+	"github.com/itsursujit/grip/message"
 	xmpp "github.com/mattn/go-xmpp"
-	"github.com/mongodb/grip/message"
 )
 
 type xmppLogger struct {

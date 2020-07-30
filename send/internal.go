@@ -4,8 +4,8 @@ import (
 	"context"
 	"sync"
 
-	"github.com/mongodb/grip/level"
-	"github.com/mongodb/grip/message"
+	"github.com/itsursujit/grip/level"
+	"github.com/itsursujit/grip/message"
 )
 
 // InternalSender implements a Sender object that makes it possible to

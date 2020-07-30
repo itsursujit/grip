@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/mongodb/grip/level"
+	"github.com/itsursujit/grip/level"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

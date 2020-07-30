@@ -8,8 +8,8 @@ import (
 	"time"
 
 	hec "github.com/fuyufjh/splunk-hec-go"
-	"github.com/mongodb/grip/level"
-	"github.com/mongodb/grip/message"
+	"github.com/itsursujit/grip/level"
+	"github.com/itsursujit/grip/message"
 	"github.com/pkg/errors"
 )
 

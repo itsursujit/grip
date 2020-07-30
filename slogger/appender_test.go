@@ -3,8 +3,8 @@ package slogger
 import (
 	"testing"
 
-	"github.com/mongodb/grip/level"
-	"github.com/mongodb/grip/message"
+	"github.com/itsursujit/grip/level"
+	"github.com/itsursujit/grip/message"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -3,7 +3,7 @@ package message
 import (
 	"testing"
 
-	"github.com/mongodb/grip/level"
+	"github.com/itsursujit/grip/level"
 	"github.com/stretchr/testify/assert"
 )
 

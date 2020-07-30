@@ -13,8 +13,8 @@ import (
 
 	jira "github.com/andygrunwald/go-jira"
 	"github.com/dghubble/oauth1"
-	"github.com/mongodb/grip/level"
-	"github.com/mongodb/grip/message"
+	"github.com/itsursujit/grip/level"
+	"github.com/itsursujit/grip/message"
 	"github.com/pkg/errors"
 	"github.com/trivago/tgo/tcontainer"
 )

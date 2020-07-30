@@ -1,8 +1,8 @@
 package grip
 
 import (
-	"github.com/mongodb/grip/logging"
-	"github.com/mongodb/grip/send"
+	"github.com/itsursujit/grip/logging"
+	"github.com/itsursujit/grip/send"
 )
 
 // The base type for all Journaling methods provided by the Grip

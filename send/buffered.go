@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/mongodb/grip/message"
+	"github.com/itsursujit/grip/message"
 )
 
 const minInterval = 5 * time.Second

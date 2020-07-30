@@ -10,7 +10,7 @@ variables:
       - command: git.get_project
         type: system
         params:
-          directory: gopath/src/github.com/mongodb/grip
+          directory: gopath/src/github.com/itsursujit/grip
       - func: run-make
         vars: { target: "${task_name}" }
 
@@ -35,7 +35,7 @@ functions:
             export GOPATH=$(cygpath -m $GOPATH)
          fi
 
-         cd gopath/src/github.com/mongodb/grip
+         cd gopath/src/github.com/itsursujit/grip
 
          # Run make, called with proper environment variables set,
          # running the target.
@@ -50,15 +50,15 @@ post:
     type: setup
     params:
       files:
-        - "gopath/src/github.com/mongodb/grip/build/output.*"
-        - "gopath/src/github.com/mongodb/grip/build/test.*.out"
-        - "gopath/src/github.com/mongodb/grip/build/race.*.out"
+        - "gopath/src/github.com/itsursujit/grip/build/output.*"
+        - "gopath/src/github.com/itsursujit/grip/build/test.*.out"
+        - "gopath/src/github.com/itsursujit/grip/build/race.*.out"
   - command: s3.put
     type: system
     params:
       aws_key: ${aws_key}
       aws_secret: ${aws_secret}
-      local_files_include_filter: ["gopath/src/github.com/mongodb/grip/build/output.*.coverage.html"]
+      local_files_include_filter: ["gopath/src/github.com/itsursujit/grip/build/output.*.coverage.html"]
       remote_file: evergreen/${task_id}/
       bucket: mciuploads
       content_type: text/html
@@ -69,7 +69,7 @@ post:
     params:
       aws_key: ${aws_key}
       aws_secret: ${aws_secret}
-      local_files_include_filter: ["gopath/src/github.com/mongodb/grip/build/output.*.coverage"]
+      local_files_include_filter: ["gopath/src/github.com/itsursujit/grip/build/output.*.coverage"]
       remote_file: evergreen/${task_id}/
       bucket: mciuploads
       content_type: text/plain
@@ -85,7 +85,7 @@ tasks:
       - command: git.get_project
         type: system
         params:
-          directory: gopath/src/github.com/mongodb/grip
+          directory: gopath/src/github.com/itsursujit/grip
       - func: run-make
         vars: { target: "lint" }
 
@@ -95,7 +95,7 @@ tasks:
       - command: git.get_project
         type: system
         params:
-          directory: gopath/src/github.com/mongodb/grip
+          directory: gopath/src/github.com/itsursujit/grip
       - func: run-make
         vars:
           target: "coverage-html"

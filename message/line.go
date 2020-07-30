@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/mongodb/grip/level"
+	"github.com/itsursujit/grip/level"
 )
 
 type lineMessenger struct {

@@ -1,7 +1,7 @@
 package message
 
 import (
-	"github.com/mongodb/grip/level"
+	"github.com/itsursujit/grip/level"
 )
 
 type jiraComment struct {

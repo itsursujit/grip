@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/mongodb/grip/message"
+	"github.com/itsursujit/grip/message"
 	"github.com/stretchr/testify/assert"
 )
 

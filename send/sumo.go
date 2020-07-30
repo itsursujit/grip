@@ -7,8 +7,8 @@ import (
 	"net/url"
 	"os"
 
-	"github.com/mongodb/grip/message"
-	sumo "github.com/nutmegdevelopment/sumologic/upload"
+	"github.com/itsursujit/grip/message"
+	sumo "github.com/itsursujit/sumologic/upload"
 )
 
 type sumoLogger struct {
